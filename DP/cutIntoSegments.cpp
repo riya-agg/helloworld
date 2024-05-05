@@ -12,6 +12,7 @@ int solve(int n, int x, int y, int z, vector<int> &dp) {
     if(n < 0)
         return INT_MIN;
 
+    // length of the rod = 0
     if(n == 0)
         return 0;
 
